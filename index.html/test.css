@@ -1,0 +1,103 @@
+*{
+    justify-content: center;
+    align-items: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+body{
+    justify-content: space-between;
+    background-color: cornflowerblue;
+}
+section{
+    min-width: 25vh;
+    min-height: 65vh;
+    background-color: black;
+    margin-left:18vh;
+    margin-right: 18vh;
+    padding: 3vh;
+    text-align: center;
+    display: flex;
+
+}
+button{
+    
+    width: 15pc;
+    padding: 25px;
+    height: 18px;
+    display: flex;
+    text-align: center;
+    border-radius: 12vh;
+}
+input{
+    font-size: 25px;
+    height: 5vh;
+    width: 42vh;
+    border-right: transparent;
+    border-top: transparent;
+    border-left: transparent;
+    border-bottom: 2vh double black;
+}
+.naz{
+    gap: 20px;
+    min-height: 87vh;
+    min-width:65vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    float:right;
+    margin-left: 45px;
+    /* padding: 28px; */
+    border-bottom-right-radius: 15vh;
+    border-top-right-radius: 15vh;
+}
+.cool{
+    border-bottom-left-radius: 15vh;
+    border-top-left-radius: 15vh;
+    gap: 20px;
+    min-height: 85vh;
+    min-width:65vh;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    margin-right: 45px;
+    padding-bottom: 12px;
+}
+/* section{
+    min-height: 53vh;
+    width:60%;
+    background-color: peru;
+    justify-content: center;
+   margin-left:42vh;
+   margin-top: 15vh;
+   border: 3px solid black;
+    border-radius: 15vh;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    display: flex;
+    gap: 20px;
+
+}
+.cool{
+    float: left;
+    background-color: aqua;
+}
+.naz{
+    float:right ;
+    background-color: blueviolet;
+}
+/* .cool:hover{
+    border-top: transparent;
+    border-left: transparent;
+    border-right: transparent;
+    padding-top: 12vh; */
+/* input{
+    height: 5vh;
+    min-width:35vh;
+}
+.btn{
+    height: 13vh;
+    width: 27vh;
+    border-radius: 6vh;
+    font-size: 25pt;
+    text-transform: capitalize;
+} */ 
