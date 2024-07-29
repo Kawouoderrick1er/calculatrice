@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+}
+body{
+    background-color: brown;
+    width: 100%;
+}
+.contenu{
+    border: 19px solid black;
+    background-color: beige;
+    width: 900px;
+    height: 200px;
+    
+
+}
+
+.contenu a{
+   
+} 
+ body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: #607d8b;
+    position: relative;
+} 
+ .container{
+    position: relative;
+    top: 50px;
+}
+.cup{
+    position: relative;
+    width: 280px;
+    height: 300px;;
+    background: linear-gradient(to right,#d9d9d9,#d9d9d9);
+    border-bottom-left-radius: 45%;
+    border-bottom-right-radius: 45%;
+    margin-left:155px;
+}
+.top{
+    position: absolute;
+    top: -30px;
+    background: linear-gradient(to right,#d9d9d9,#d9d9d9);
+    left:0;
+    width: 100%;
+    height: 60px;
+    border-radius: 50%;
+}
+.circle{
+    position: absolute;
+    background: linear-gradient(to right,#d9d9d9,  #d9d9d9);
+    top: 5px;
+    left: 10px;
+    width: calc(100% - 20px);
+    height: 50px;
+    border-radius: 50%;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.the{
+    position: absolute;
+    top: 30px;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#925720b0,#925720b0);
+    border-radius: 50%;
+} 
+.manche{
+position: absolute;
+top: 30px;
+right: -78px;;
+width: 180px;
+height: 200px;
+border: 25px solid #d9d9d9;
+border-left: 25px solid transparent;
+border-bottom: 25px solid transparent;
+border-radius: 50%;
+transform: rotate(42deg);
+}
+.plat::before{
+    background: linear-gradient(to left,#d9d9d9,#d9d9d9);
+    content: '';
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    border-radius: 50%;
+
+}
+.plat::after{
+    top: 30px;
+    left: 30px;
+    right: 30px;
+    bottom: 30px;
+    border-radius: 50%;
+    content: '';
+    position: absolute;
+    background: linear-gradient(rgb(90, 89, 89) 35% , transparent , transparent);
+}
+.plat{
+    position: absolute;
+    bottom: -50px;
+    left: 50%;
+    height: 200px;
+    width:500px;
+    border-radius: 50%;
+    box-shadow: 0 35px 38px rgb(0,0,0.2);
+    transform: translateX(-47%);
+    background: linear-gradient(to right,#d9d9d9,  #d9d9d9);
+    margin-left: 80px;
+} 
