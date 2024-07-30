@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: inline;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+section{
+    height: 85vh;
+}
+#col{
+    box-shadow: 0 12px 12px black;
+   
+}
+#col input{
+    background-color: white;
+    margin-bottom: 2vh;
+}
+#bad{
+    background-color: cornflowerblue;
+    text-align: center;
+    line-height: 6vh;
+}
+#bad label{
+    color: white;
+}
+#bad p{
+    color: white;
+}
